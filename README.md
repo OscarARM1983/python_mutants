@@ -19,28 +19,27 @@ El desarrollo fue realizado por Oscar Rocha en el lenguaje de programación Pyth
 ## Ejecución de la Aplicación:
 
 Para ejecutar la aplicación, se debe contar localmente pon Python v3.11.2 y una base de datos llamada dna_verificados en MYSQL con la estructura que se encuentra incluida en el repositorio con nombre dna_verificados.sql.
-a)	Para la descarga de Python dirigirse al enlace: Download Python | Python.org y buscar la versión 3.11.2
-b)	Instalar Python
-c)	Al instalar Python se instala una herramienta llamada “pip” que es utilizada en la instalación de paquetes.
-d)	Para el correcto funcionamiento de la aplicación, se deben instalar los siguientes paquetes de Python desde cmd, ejecutando los siguientes comandos:
+a.	Para la descarga de Python dirigirse al enlace: Download Python | Python.org y buscar la versión 3.11.2
+b.	Instalar Python
+c.	Al instalar Python se instala una herramienta llamada “pip” que es utilizada en la instalación de paquetes.
+d.	Para el correcto funcionamiento de la aplicación, se deben instalar los siguientes paquetes de Python desde cmd, ejecutando los siguientes comandos:
 *	pip install Flask
 *	pip install Flask-MySQLdb
-e)	Para ejecutar la aplicación, en cmd desde la carpeta donde se descargó el repositorio, se ejecuta el comando:
-*	python app_final.py
- 
+e.	Para ejecutar la aplicación, en cmd desde la carpeta donde se descargó el repositorio, se ejecuta el comando:
+*	python app_final.py 
 
 Al ejecutarse la aplicación en cmd se informa la dirección ip, a la cual se puede acceder para ver los servicios. Normalmente la ip es http://127.0.0.1:5000
  
 
-f)	Para realizar las pruebas de los servicios, se debe contar con alguna herramienta que permita realizar dichas peticiones. Se recomienda instalar Postman, el cual es un software libre.
-g)	Abrir Postman y ejecutar las peticiones o por el navegador apuntando a las siguientes rutas:
+f.	Para realizar las pruebas de los servicios, se debe contar con alguna herramienta que permita realizar dichas peticiones. Se recomienda instalar Postman, el cual es un software libre.
+g.	Abrir Postman y ejecutar las peticiones o por el navegador apuntando a las siguientes rutas:
 *	http://127.0.0.1:5000/mutant
 *	http://127.0.0.1:5000/stats
-h)	En el archivo app_final.py se crearon 3 tipos de peticiones:
+h.	En el archivo app_final.py se crearon 3 tipos de peticiones:
 *	En la dirección http://127.0.0.1:5000/mutant se creó el método POST para enviar el dna en formato JSON y evaluar si el humano es mutante o no.
 *	En la dirección http://127.0.0.1:5000/mutant se creó el método GET para obtener de la base de datos, todos los registros de dna de humanos que han sido evaluados.
 *	En la dirección http://127.0.0.1:5000/stats se creó el método GET para obtener las estadísticas de los dna de humanos que han sido evaluados.
-i)	Si es para el método POST, en postman la entrada debe ser en formato JSON con la siguiente estructura:
+i.	Si es para el método POST, en postman la entrada debe ser en formato JSON con la siguiente estructura:
 
 EJEMPLO:
 
@@ -57,7 +56,7 @@ EJEMPLO:
 
 Nota: En el repositorio se encuentra el archivo datos_pruebas.txt en donde se encuentran todos los ejemplos de dna para realizar las pruebas. Igualmente se incluye la colección de las peticiones para realizar las pruebas en el archivo apis_dna_meli.postman_collection, el cual puede ser importado desde Postman, en la siguiente ruta Collections > Import > File
 
-j)	De la siguiente manera se puede verificar el funcionamiento de la aplicación para las funcionalidades:
+j.	De la siguiente manera se puede verificar el funcionamiento de la aplicación para las funcionalidades:
 *	Verificar si es mutante:
 **	Se selecciona cualquiera de las peticiones y dar clic en el botón Send:
 POST dna_mutante1
