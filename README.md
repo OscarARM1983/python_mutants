@@ -14,6 +14,7 @@ El desarrollo fue realizado por Oscar Rocha en el lenguaje de programación Pyth
 •	datos_pruebas.txt: DNAs utilizados en la realización de pruebas funcionales, en formato JSON para la ejecución del servicio POST solicitado en la prueba.
 •	dna_verificados.sql: Estructura de la base de datos utilizada en la aplicación
 •	apis_dna_meli.postman_collection: Colección de peticiones utilizados en las pruebas funcionales
+•	Readme.docx: Readme con imágenes
 
 ## Ejecución de la Aplicación:
 
