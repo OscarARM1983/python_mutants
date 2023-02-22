@@ -1,0 +1,79 @@
+ALTER TABLE `dna_verificados` AUTO_INCREMENT=1
+
+{
+  "dna":[
+    "ATGCGA",
+    "CAGTGC",
+    "TTATGT",
+    "AGAAGG",
+    "CCCCTA",
+    "TCACTG"
+  ]
+}
+
+{
+  "dna":[
+    "ATGCGA",
+    "CAGTGC",
+    "TTATTT",
+    "AGACGG",
+    "GCGTCA",
+    "TCACTG"
+  ]
+}
+
+{
+  "dna":[
+    "AAAAGA",
+    "CAGGGG",
+    "TTATGT",
+    "AGAAGG",
+    "CCCCTA",
+    "TCACTG"
+  ]
+}
+
+{
+  "dna":[
+    "ATGCGA",
+    "CAGTGC",
+    "TTATGT",
+    "ATGCGA",
+    "CAGTGC",
+    "TCACTG"
+  ]
+}
+
+{
+  "dna":[
+    "ATGCGA",
+    "CAGTGC",
+    "TTAGGT",
+    "AGAAGG",
+    "CCCCTG",
+    "TCACTG"
+  ]
+}
+
+{
+  "dna":[
+    "ATGCGA",
+    "CAGTMC",
+    "TTATGT",
+    "ATGCGA",
+    "CAGTGC",
+    "TCACTG"
+  ]
+}
+
+{
+  "dna":[
+    "ATGCGA",
+    "CAGTAC",
+    "TTATGT",
+    "ASGCGA",
+    "CAGTGC",
+    "TCACPG"
+  ]
+}
+['ATGCGA', 'CAGTGC', 'TTATGT', 'AGAAGG', 'CCCCTA', 'TCACTG']
