@@ -22,13 +22,16 @@ Para ejecutar la aplicación, se puede hacer de dos formas, a través de un serv
 
 #FORMA REMOTA
 a. Host del servicio: 
+
 /mutant: http://35.188.12.119:8080/mutant
+
 /stats: http://35.188.12.119:8080/stats
 
 NOTA: Por favor informarme al momento de realizar las pruebas a través de esta opción, debido a que debo subir el servidor
                      
 
 #FORMA LOCAL
+
 a.	Para la descarga de Python dirigirse al enlace: Download Python | Python.org y buscar la versión 3.11.2
 
 b.	Instalar Python
